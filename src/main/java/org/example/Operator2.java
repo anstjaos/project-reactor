@@ -6,7 +6,7 @@ import reactor.core.publisher.Mono;
 import java.time.Duration;
 import java.util.List;
 
-public class OperatorOther {
+public class Operator2 {
     // concatMap
     public Flux<Integer> fluxConcatMap() {
         return Flux.range(1, 10)

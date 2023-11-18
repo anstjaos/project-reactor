@@ -2,7 +2,7 @@ package org.example;
 
 import reactor.core.publisher.Flux;
 
-public class Operator {
+public class Operator1 {
     // map
     public Flux<Integer> fluxMap() {
         return Flux.range(1, 5)
