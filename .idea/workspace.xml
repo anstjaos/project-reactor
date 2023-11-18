@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0c4df-3229-4858-af81-d06358147b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Operator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/OperatorTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/OperatorOther.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/OperatorOtherTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -75,8 +75,8 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.OperatorTest.fluxFlatMap2">
-    <configuration name="OperatorTest.fluxFilter" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.OperatorOtherTest.monoZip">
+    <configuration name="OperatorOtherTest.fluxMerge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -89,7 +89,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorTest.fluxFilter&quot;" />
+            <option value="&quot;org.example.OperatorOtherTest.fluxMerge&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -99,7 +99,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorTest.fluxFilterTake" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperatorOtherTest.fluxZip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -112,7 +112,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorTest.fluxFilterTake&quot;" />
+            <option value="&quot;org.example.OperatorOtherTest.fluxZip&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -122,7 +122,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorTest.fluxFlatMap" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperatorOtherTest.monoMerge" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -135,7 +135,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorTest.fluxFlatMap&quot;" />
+            <option value="&quot;org.example.OperatorOtherTest.monoMerge&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -145,7 +145,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorTest.fluxFlatMap2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperatorOtherTest.monoZip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -158,7 +158,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorTest.fluxFlatMap2&quot;" />
+            <option value="&quot;org.example.OperatorOtherTest.monoZip&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -168,7 +168,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorTest.fluxMap" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="OperatorOtherTest.switchIfEmpty2" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -181,7 +181,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorTest.fluxMap&quot;" />
+            <option value="&quot;org.example.OperatorOtherTest.switchIfEmpty2&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -193,11 +193,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.OperatorTest.fluxFlatMap2" />
-        <item itemvalue="Gradle.OperatorTest.fluxFlatMap" />
-        <item itemvalue="Gradle.OperatorTest.fluxFilterTake" />
-        <item itemvalue="Gradle.OperatorTest.fluxFilter" />
-        <item itemvalue="Gradle.OperatorTest.fluxMap" />
+        <item itemvalue="Gradle.OperatorOtherTest.monoZip" />
+        <item itemvalue="Gradle.OperatorOtherTest.fluxZip" />
+        <item itemvalue="Gradle.OperatorOtherTest.monoMerge" />
+        <item itemvalue="Gradle.OperatorOtherTest.fluxMerge" />
+        <item itemvalue="Gradle.OperatorOtherTest.switchIfEmpty2" />
       </list>
     </recent_temporary>
   </component>
@@ -209,7 +209,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700279981285</updated>
-      <workItem from="1700279982707" duration="2659000" />
+      <workItem from="1700279982707" duration="3614000" />
     </task>
     <task id="LOCAL-00001" summary="Flux, Mono 테스트">
       <created>1700280757675</created>
@@ -225,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700281120632</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Operator 1 테스트">
+      <created>1700287669129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1700287669129</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -234,6 +241,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Flux, Mono 테스트" />
     <MESSAGE value="테케 추가" />
-    <option name="LAST_COMMIT_MESSAGE" value="테케 추가" />
+    <MESSAGE value="Operator 1 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operator 1 테스트" />
   </component>
 </project>
