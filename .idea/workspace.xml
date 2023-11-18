@@ -5,14 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="afc0c4df-3229-4858-af81-d06358147b36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Operator3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Operator3Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/Operator4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/org/example/Operator4Test.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Operator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Operator1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/OperatorOther.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/Operator2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OperatorOtherTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Operator1OtherTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/org/example/OperatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/org/example/Operator1Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +76,7 @@
       <recent name="org.example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Operator3Test.fluxGroupBy">
+  <component name="RunManager" selected="Gradle.Operator4Test.fluxSample">
     <configuration name="Operator3Test.fluxCount" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -151,7 +146,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorOtherTest.fluxZip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Operator4Test.fluxDelayAndLimit" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -164,7 +159,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorOtherTest.fluxZip&quot;" />
+            <option value="&quot;org.example.Operator4Test.fluxDelayAndLimit&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -174,7 +169,7 @@
       <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="OperatorOtherTest.monoZip" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+    <configuration name="Operator4Test.fluxSample" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -187,7 +182,7 @@
           <list>
             <option value=":test" />
             <option value="--tests" />
-            <option value="&quot;org.example.OperatorOtherTest.monoZip&quot;" />
+            <option value="&quot;org.example.Operator4Test.fluxSample&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -199,11 +194,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.Operator4Test.fluxSample" />
+        <item itemvalue="Gradle.Operator4Test.fluxDelayAndLimit" />
         <item itemvalue="Gradle.Operator3Test.fluxGroupBy" />
         <item itemvalue="Gradle.Operator3Test.fluxDistinct" />
         <item itemvalue="Gradle.Operator3Test.fluxCount" />
-        <item itemvalue="Gradle.OperatorOtherTest.monoZip" />
-        <item itemvalue="Gradle.OperatorOtherTest.fluxZip" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +210,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1700279981285</updated>
-      <workItem from="1700279982707" duration="3966000" />
+      <workItem from="1700279982707" duration="4261000" />
     </task>
     <task id="LOCAL-00001" summary="Flux, Mono 테스트">
       <created>1700280757675</created>
@@ -245,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1700288577320</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Operator 3 테스트">
+      <created>1700288939051</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1700288939051</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,6 +258,7 @@
     <MESSAGE value="테케 추가" />
     <MESSAGE value="Operator 1 테스트" />
     <MESSAGE value="Operator 2 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="Operator 2 테스트" />
+    <MESSAGE value="Operator 3 테스트" />
+    <option name="LAST_COMMIT_MESSAGE" value="Operator 3 테스트" />
   </component>
 </project>
